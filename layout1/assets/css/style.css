@@ -1,0 +1,75 @@
+:root {
+    --MyColor: yellow;
+    --fleft: left;
+    --Padding: 15px;
+}
+
+
+.main {
+    width: 800px;
+    min-height: 600px;
+    /* background: grey; */
+    float: var(--fleft);
+   
+}
+
+.header {
+    width: 800px;
+    min-height: 70px;
+    background: var(--MyColor);
+    float: var(--fleft);
+    padding: var(--Padding);
+    box-sizing: border-box; 
+
+}
+
+.center {
+    width: 800px;
+    min-height: 430px;
+    /* background: green; */
+    float: var(--fleft);
+    margin: 15px 0;
+}
+
+.nav {
+    width: 200px;
+    min-height: inherit;
+    background: var(--MyColor);
+    float: var(--fleft);
+    padding: var(--Padding); 
+    box-sizing: border-box; 
+}
+
+.article {
+    width: 420px;
+    min-height: inherit;
+    background: var(--MyColor);
+    float: var(--fleft);
+    margin: 0 15px;
+    padding: var(--Padding); 
+    box-sizing: border-box; 
+
+}
+
+.ads {
+    width: 150px;
+    min-height: inherit;
+    background: var(--MyColor);
+    float: var(--fleft);
+    padding: var(--Padding); 
+    box-sizing: border-box; 
+
+}
+
+.footer {
+    width: 800px;
+    min-height: 70px;
+    background: var(--MyColor);
+    float: var(--fleft);
+    padding: var(--Padding); 
+    box-sizing: border-box; 
+}
+
+/* .MyColor{
+    background: green;
+} */
